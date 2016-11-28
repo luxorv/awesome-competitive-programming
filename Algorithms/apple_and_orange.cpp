@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  apple_and_orange.cpp
 //  Algorithms
 //
 //  Created by Victor Ml Polanco on 11/26/16.
@@ -33,14 +33,13 @@
 
 using namespace std;
 
-int maint(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     
 #ifdef OFFLINE
     freopen("input.in", "r", stdin);
     freopen("output.out", "w", stdout);
 #endif
     
-    cout << "Hello, World!\n";
     
     return 0;
 }

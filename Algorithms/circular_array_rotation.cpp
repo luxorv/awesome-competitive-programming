@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  circular_array_rotation.cpp
 //  Algorithms
 //
 //  Created by Victor Ml Polanco on 11/26/16.
@@ -33,14 +33,33 @@
 
 using namespace std;
 
-int maint(int argc, const char * argv[]) {
+int circular_array(int argc, const char * argv[]) {
     
 #ifdef OFFLINE
     freopen("input.in", "r", stdin);
     freopen("output.out", "w", stdout);
 #endif
     
-    cout << "Hello, World!\n";
+    int n, k, q, m;
+    
+    scanf("%d %d %d", &n, &k, &q);
+    
+    int a[n];
+    
+    for (int i=0; i<n; i++) {
+        scanf("%d", &a[i]);
+    }
+    
+    for (int i=0; i<q; i++) {
+        
+        scanf("%d", &m);
+        
+        m -= k;
+        
+        while(m < 0) m += n;
+        
+        printf("%d\n", a[m]);
+    }
     
     return 0;
 }

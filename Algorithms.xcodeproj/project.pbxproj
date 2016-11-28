@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E994A9971DE94EE2005FB44B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9961DE94EE2005FB44B /* main.cpp */; };
+		E994A9A71DE952C4005FB44B /* compare_the_triplets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9A61DE952C4005FB44B /* compare_the_triplets.cpp */; };
+		E994A9A91DE95531005FB44B /* circular_array_rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9A81DE95531005FB44B /* circular_array_rotation.cpp */; };
+		E994A9AB1DE96A0B005FB44B /* mini_max_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9AA1DE96A0B005FB44B /* mini_max_sum.cpp */; };
+		E994A9AD1DE9C922005FB44B /* designer_pdf_viewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9AC1DE9C922005FB44B /* designer_pdf_viewer.cpp */; };
+		E994A9B11DEA7A81005FB44B /* apple_and_orange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9B01DEA7A81005FB44B /* apple_and_orange.cpp */; };
+		E994A9B41DEA7CE6005FB44B /* camel_case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E994A9B31DEA7CE6005FB44B /* camel_case.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,15 @@
 /* Begin PBXFileReference section */
 		E994A9931DE94EE2005FB44B /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E994A9961DE94EE2005FB44B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E994A99D1DE94F94005FB44B /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E994A9A01DE950F7005FB44B /* input.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input.in; path = "../../../Library/Developer/Xcode/DerivedData/Algorithms-czzrrnbefgldlngfhzfrkrbzidol/Build/Products/Debug/input.in"; sourceTree = "<group>"; };
+		E994A9A11DE95110005FB44B /* output.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = output.out; path = "../../../Library/Developer/Xcode/DerivedData/Algorithms-czzrrnbefgldlngfhzfrkrbzidol/Build/Products/Debug/output.out"; sourceTree = "<group>"; };
+		E994A9A61DE952C4005FB44B /* compare_the_triplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = compare_the_triplets.cpp; sourceTree = "<group>"; };
+		E994A9A81DE95531005FB44B /* circular_array_rotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = circular_array_rotation.cpp; sourceTree = "<group>"; };
+		E994A9AA1DE96A0B005FB44B /* mini_max_sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mini_max_sum.cpp; sourceTree = "<group>"; };
+		E994A9AC1DE9C922005FB44B /* designer_pdf_viewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = designer_pdf_viewer.cpp; sourceTree = "<group>"; };
+		E994A9B01DEA7A81005FB44B /* apple_and_orange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = apple_and_orange.cpp; sourceTree = "<group>"; };
+		E994A9B31DEA7CE6005FB44B /* camel_case.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camel_case.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,8 @@
 			children = (
 				E994A9951DE94EE2005FB44B /* Algorithms */,
 				E994A9941DE94EE2005FB44B /* Products */,
+				E994A9A11DE95110005FB44B /* output.out */,
+				E994A9A01DE950F7005FB44B /* input.in */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +74,72 @@
 		E994A9951DE94EE2005FB44B /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				E994A9A51DE95157005FB44B /* codeforces */,
+				E994A9A41DE95150005FB44B /* topcoder */,
+				E994A9A31DE95147005FB44B /* hackerrank */,
+				E994A9A21DE9513E005FB44B /* uva */,
 				E994A9961DE94EE2005FB44B /* main.cpp */,
+				E994A99D1DE94F94005FB44B /* main.h */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		E994A9A21DE9513E005FB44B /* uva */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = uva;
+			sourceTree = "<group>";
+		};
+		E994A9A31DE95147005FB44B /* hackerrank */ = {
+			isa = PBXGroup;
+			children = (
+				E994A9AE1DEA7A12005FB44B /* algorithms */,
+			);
+			name = hackerrank;
+			sourceTree = "<group>";
+		};
+		E994A9A41DE95150005FB44B /* topcoder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = topcoder;
+			sourceTree = "<group>";
+		};
+		E994A9A51DE95157005FB44B /* codeforces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = codeforces;
+			sourceTree = "<group>";
+		};
+		E994A9AE1DEA7A12005FB44B /* algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E994A9B21DEA7CD6005FB44B /* strings */,
+				E994A9AF1DEA7A2E005FB44B /* implementations */,
+			);
+			name = algorithms;
+			sourceTree = "<group>";
+		};
+		E994A9AF1DEA7A2E005FB44B /* implementations */ = {
+			isa = PBXGroup;
+			children = (
+				E994A9AA1DE96A0B005FB44B /* mini_max_sum.cpp */,
+				E994A9A81DE95531005FB44B /* circular_array_rotation.cpp */,
+				E994A9AC1DE9C922005FB44B /* designer_pdf_viewer.cpp */,
+				E994A9A61DE952C4005FB44B /* compare_the_triplets.cpp */,
+				E994A9B01DEA7A81005FB44B /* apple_and_orange.cpp */,
+			);
+			name = implementations;
+			sourceTree = "<group>";
+		};
+		E994A9B21DEA7CD6005FB44B /* strings */ = {
+			isa = PBXGroup;
+			children = (
+				E994A9B31DEA7CE6005FB44B /* camel_case.cpp */,
+			);
+			name = strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E994A9AD1DE9C922005FB44B /* designer_pdf_viewer.cpp in Sources */,
+				E994A9A91DE95531005FB44B /* circular_array_rotation.cpp in Sources */,
+				E994A9B41DEA7CE6005FB44B /* camel_case.cpp in Sources */,
+				E994A9A71DE952C4005FB44B /* compare_the_triplets.cpp in Sources */,
 				E994A9971DE94EE2005FB44B /* main.cpp in Sources */,
+				E994A9B11DEA7A81005FB44B /* apple_and_orange.cpp in Sources */,
+				E994A9AB1DE96A0B005FB44B /* mini_max_sum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
