@@ -1,12 +1,10 @@
 //
-//  apple_and_orange.cpp
+//  bender_rodriguez.cpp
 //  Algorithms
 //
-//  Created by Victor Ml Polanco on 11/26/16.
+//  Created by Victor Ml Polanco on 11/28/16.
 //  Copyright © 2016 Victor Ml Polanco. All rights reserved.
 //
-
-#include "main.h"
 
 #include <map>
 #include <set>
@@ -33,12 +31,13 @@
 
 using namespace std;
 
-int apples_and_oranges(int argc, const char * argv[]) {
+int main(int argc, const char * argv[]) {
     
 #ifdef OFFLINE
     freopen("input.in", "r", stdin);
     freopen("output.out", "w", stdout);
 #endif
+    
     
     
     return 0;
